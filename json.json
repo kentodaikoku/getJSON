@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Luffy",
+    "position": "captain",
+    "sex": "man",
+    "hobby": ["meat", "adventure", "fight"]
+  },
+  {
+    "name": "Zoro",
+    "position": "",
+    "sex": "",
+    "hobby": []
+  },
+  {
+    "name": "Sanji",
+    "position": "",
+    "sex": "",
+    "hobby": []
+  },
+  {
+    "name": "Nami",
+    "position": "",
+    "sex": "",
+    "hobby": []
+  },
+  {
+    "name": "Usop",
+    "position": "",
+    "sex": "",
+    "hobby": []
+  }
+]
