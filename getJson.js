@@ -18,9 +18,22 @@ function getJson() {
 
 var json = getJson();
 var contents = '';
+var hobbies = '';
 contents += '<ul>';
 for (let i = 0; i < json.length; i++) {
-  contents += '<li>' + json[i].name + '</li>';
+  for(let k = 0; k < json[i].hobby.length; k++) {
+    hobbies += '<li>' + json[i].hobby[k] + '</li>';
+  }
+  contents += '<li><div class="contents">';
+  contents += '<p>' + json[i].name + '</p>';
+  contents += '<p>' + json[i].position + '</p>';
+  contents += '<span>Hobby</span>';
+  contents += '<ul>';
+  contents += hobbies;
+  contents += '</ul>';
+  contents+= '</div></li>';
+
+  hobbies = '';
 }
 contents += '</ul>';
 $('#json').html(contents);

@@ -2,31 +2,31 @@
   {
     "name": "Luffy",
     "position": "captain",
-    "sex": "man",
+    "sex": "male",
     "hobby": ["meat", "adventure", "fight"]
   },
   {
     "name": "Zoro",
-    "position": "",
-    "sex": "",
-    "hobby": []
+    "position": "fighter",
+    "sex": "male",
+    "hobby": ["sleep", "sake", "training"]
   },
   {
     "name": "Sanji",
-    "position": "",
-    "sex": "",
-    "hobby": []
+    "position": "cook",
+    "sex": "male",
+    "hobby": ["woman"]
   },
   {
     "name": "Nami",
-    "position": "",
-    "sex": "",
-    "hobby": []
+    "position": "navigator",
+    "sex": "female",
+    "hobby": ["book", "steal", "orange"]
   },
   {
     "name": "Usop",
-    "position": "",
-    "sex": "",
-    "hobby": []
+    "position": "sniper",
+    "sex": "male",
+    "hobby": ["lying", "fishing"]
   }
 ]
