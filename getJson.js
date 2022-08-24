@@ -37,3 +37,18 @@ for (let i = 0; i < json.length; i++) {
 }
 contents += '</ul>';
 $('#json').html(contents);
+
+const array = () => {
+  let num = 0;
+  json.forEach(function(value, index, array) {
+    console.log(value.name);
+    console.log(index);
+    num += index;
+    if (value.hobby[index] === 'meat') {
+      value.hobby.push('eating'); 
+    }
+  });
+  console.log(`配列番号の和：${num}`);
+  console.log(json);
+}
+array();
