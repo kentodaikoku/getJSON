@@ -6,7 +6,7 @@ function getJson() {
     dataType: "json",
     async: false,
     success: function(data) {
-      console.log(data.length);
+      // console.log(data.length);
       json = data;
     },
     error: function(data) {
@@ -41,14 +41,14 @@ $('#json').html(contents);
 const array = () => {
   let num = 0;
   json.forEach(function(value, index, array) {
-    console.log(value.name);
-    console.log(index);
+    // console.log(value.name);
+    // console.log(index);
     num += index;
     if (value.hobby[index] === 'meat') {
       value.hobby.push('eating'); 
     }
   });
-  console.log(`配列番号の和：${num}`);
-  console.log(json);
+  // console.log(`配列番号の和：${num}`);
+  // console.log(json);
 }
 array();
